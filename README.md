@@ -27,8 +27,8 @@ It allows users to filter by year, continent, and population range to visualize 
 
 ## 📂 Project Structure
 ```
-📦 data-visualization-app
- ┣ 📜 01dashboard.py      # Main Streamlit app
+📦 01_Dashboard-app
+ ┣ 📜 01data.py      # Main Streamlit app
  ┣ 📜 requirements.txt    # Dependencies
  ┣ 📜 .gitignore          # Ignore virtual env, cache, etc.
  ┗ 📜 README.md           # Project documentation
@@ -40,8 +40,8 @@ It allows users to filter by year, continent, and population range to visualize 
 
 ### 1. Clone this repo
 ```bash
-git clone https://github.com/your-username/data-visualization-app.git
-cd data-visualization-app
+git clone https://github.com/banerjee-aot/01_Dashboard-app.git
+cd 01_Dashboard-app
 ```
 
 ### 2. Create virtual environment
@@ -58,13 +58,18 @@ pip install -r requirements.txt
 
 ### 4. Run the app
 ```bash
-streamlit run 01dashboard.py
+streamlit run 01data.py
 ```
 
 ---
 
 ## 📷 Demo Screenshot
-(Add screenshot of the app here)
+
+Here’s how the app looks:
+
+![App Screenshot](./assets/app-ss.png)
+
+
 
 ---
 
@@ -79,8 +84,6 @@ streamlit run 01dashboard.py
 - Python 3.8+
 - Streamlit
 - Plotly
-- Pandas
-
 ---
 
 ## 🙌 Contributing
